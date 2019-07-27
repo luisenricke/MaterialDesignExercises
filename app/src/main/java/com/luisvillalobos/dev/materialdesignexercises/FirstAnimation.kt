@@ -15,7 +15,7 @@ class FirstAnimation : AppCompatActivity() {
         setContentView(R.layout.activity_first_animation)
 
 
-        image.visibility = View.INVISIBLE // To apply fade_in
+        //image.visibility = View.INVISIBLE // To apply fade_in
 
         startAnimation.setOnClickListener {
             //Make bigger the view
@@ -25,7 +25,41 @@ class FirstAnimation : AppCompatActivity() {
             //var animation = AnimationUtils.loadAnimation(this, R.anim.fade_out)
 
             //Make visible the view
-            var animation = AnimationUtils.loadAnimation(this, R.anim.fade_in)
+            /*var animation = AnimationUtils.loadAnimation(this, R.anim.fade_in)
+
+            animation.setAnimationListener(object : Animation.AnimationListener {
+                override fun onAnimationRepeat(animation: Animation?) {
+                    //TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+                }
+
+                override fun onAnimationEnd(animation: Animation?) {
+                    image.scaleX = 2F
+                    image.scaleY = 2F
+                }
+
+                override fun onAnimationStart(animation: Animation?) {
+                    //TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+                }
+
+            })*/
+
+            //Make rotate the view
+            var animation = AnimationUtils.loadAnimation(this,R.anim.rotate)
+
+            animation.setAnimationListener(object : Animation.AnimationListener {
+                override fun onAnimationRepeat(animation: Animation?) {
+                    //TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+                }
+
+                override fun onAnimationEnd(animation: Animation?) {
+
+                }
+
+                override fun onAnimationStart(animation: Animation?) {
+                    //TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+                }
+
+            })
 
 //            animation.fillAfter = true // Still the size after animate
 
