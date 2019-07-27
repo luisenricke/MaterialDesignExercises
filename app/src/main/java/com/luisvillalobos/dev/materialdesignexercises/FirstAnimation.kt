@@ -44,7 +44,22 @@ class FirstAnimation : AppCompatActivity() {
             })*/
 
             //Make rotate the view
-            var animation = AnimationUtils.loadAnimation(this,R.anim.rotate)
+            //var animation = AnimationUtils.loadAnimation(this,R.anim.rotate)
+
+            //Make blink the view
+            //var animation = AnimationUtils.loadAnimation(this,R.anim.blink)
+
+            //Make translate the view
+            //var animation = AnimationUtils.loadAnimation(this,R.anim.translate)
+
+            //Make small the view
+            //var animation = AnimationUtils.loadAnimation(this,R.anim.small)
+
+            //Make three animation the view
+            //var animation = AnimationUtils.loadAnimation(this,R.anim.combination)
+
+            //Make two animation the view
+            var animation = AnimationUtils.loadAnimation(this,R.anim.bounce)
 
             animation.setAnimationListener(object : Animation.AnimationListener {
                 override fun onAnimationRepeat(animation: Animation?) {
