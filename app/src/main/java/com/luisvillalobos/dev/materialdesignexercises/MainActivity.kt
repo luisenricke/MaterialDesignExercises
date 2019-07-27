@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         firstAnimation.setOnClickListener {
-            var intent = Intent(baseContext,MainActivity::class.java)
+            var intent = Intent(baseContext,FirstAnimation::class.java)
             startActivity(intent)
         }
     }
