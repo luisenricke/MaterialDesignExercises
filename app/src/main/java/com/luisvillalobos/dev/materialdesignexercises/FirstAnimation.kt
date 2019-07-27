@@ -13,7 +13,11 @@ class FirstAnimation : AppCompatActivity() {
         setContentView(R.layout.activity_first_animation)
 
         startAnimation.setOnClickListener {
-            var animation = AnimationUtils.loadAnimation(this, R.anim.big)
+            //Make bigger the view
+            //var animation = AnimationUtils.loadAnimation(this, R.anim.big)
+
+            //Make invisible the view
+            var animation = AnimationUtils.loadAnimation(this, R.anim.fade_out)
 //            animation.fillAfter = true // Still the size after animate
 
 //            animation.repeatMode = Animation.INFINITE
