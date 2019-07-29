@@ -15,5 +15,10 @@ class MainActivity : AppCompatActivity() {
             var intent = Intent(baseContext,FirstAnimation::class.java)
             startActivity(intent)
         }
+
+        frameAnimation.setOnClickListener {
+            var intent = Intent(baseContext,FrameAnimation::class.java)
+            startActivity(intent)
+        }
     }
 }

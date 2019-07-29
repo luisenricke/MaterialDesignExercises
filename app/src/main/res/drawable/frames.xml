@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+                android:oneshot="false">
+    <item android:drawable="@drawable/megaman01" android:duration="500"/>
+    <item android:drawable="@drawable/megaman02" android:duration="50"/>
+    <item android:drawable="@drawable/megaman03" android:duration="50"/>
+    <item android:drawable="@drawable/megaman04" android:duration="50"/>
+    <item android:drawable="@drawable/megaman05" android:duration="400"/>
+    <item android:drawable="@drawable/megaman06" android:duration="50"/>
+    <item android:drawable="@drawable/megaman07" android:duration="50"/>
+    <item android:drawable="@drawable/megaman08" android:duration="50"/>
+    <item android:drawable="@drawable/megaman09" android:duration="50"/>
+</animation-list>
