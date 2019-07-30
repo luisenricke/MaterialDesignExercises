@@ -18,4 +18,30 @@
             android:text="Animacion frma"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
+
+    <Button
+            android:id="@+id/activityAnimationRightLeft"
+            android:text="Animacion activity Derecha-Izquierda"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <Button
+            android:id="@+id/activityAnimationLeftRight"
+            android:text="Animacion activity Izquierda-Derecha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <Button
+            android:id="@+id/activityAnimationTopDown"
+            android:text="Animacion activity Arriba-Abajo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <Button
+            android:id="@+id/activityAnimationDownTop"
+            android:text="Animacion activity Abajo-Arriba"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
 </LinearLayout>
