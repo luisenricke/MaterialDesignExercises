@@ -44,5 +44,10 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
             overridePendingTransition(R.anim.bottom_in,R.anim.top_out) // If you put 0 in output just trigger one animation
         }
+
+        activityToolbar.setOnClickListener {
+            var intent = Intent(baseContext,ToolBar::class.java)
+            startActivity(intent)
+        }
     }
 }
