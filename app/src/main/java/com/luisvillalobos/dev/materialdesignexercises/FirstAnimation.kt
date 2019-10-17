@@ -1,11 +1,9 @@
 package com.luisvillalobos.dev.materialdesignexercises
 
-import android.opengl.Visibility
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
 import android.view.animation.Animation
 import android.view.animation.AnimationUtils
+import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_first_animation.*
 
 class FirstAnimation : AppCompatActivity() {
