@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.luisvillalobos.dev.materialdesignexercises">
+        package="com.luisvillalobos.dev.materialdesignexercises">
 
     <application
             android:allowBackup="true"
@@ -9,20 +9,14 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/MaterialTheme">
-        <activity android:name=".ToolBar">
-        </activity>
-        <activity android:name=".ActivityAnimationBottomTop">
-        </activity>
-        <activity android:name=".ActivityAnimationTopBottom">
-        </activity>
-        <activity android:name=".ActivityAnimationLeftRight">
-        </activity>
-        <activity android:name=".ActivityAnimationRightLeft">
-        </activity>
-        <activity android:name=".FrameAnimation">
-        </activity>
-        <activity android:name=".FirstAnimation">
-        </activity>
+        <activity android:name=".ActivityConstraintLayout"></activity>
+        <activity android:name=".ToolBar"></activity>
+        <activity android:name=".ActivityAnimationBottomTop"></activity>
+        <activity android:name=".ActivityAnimationTopBottom"></activity>
+        <activity android:name=".ActivityAnimationLeftRight"></activity>
+        <activity android:name=".ActivityAnimationRightLeft"></activity>
+        <activity android:name=".FrameAnimation"></activity>
+        <activity android:name=".FirstAnimation"></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
