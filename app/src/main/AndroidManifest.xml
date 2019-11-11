@@ -9,19 +9,20 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/MaterialTheme">
-        <activity android:name=".ActivityConstraintLayout"></activity>
-        <activity android:name=".ToolBar"></activity>
-        <activity android:name=".ActivityAnimationBottomTop"></activity>
-        <activity android:name=".ActivityAnimationTopBottom"></activity>
-        <activity android:name=".ActivityAnimationLeftRight"></activity>
-        <activity android:name=".ActivityAnimationRightLeft"></activity>
-        <activity android:name=".FrameAnimation"></activity>
-        <activity android:name=".FirstAnimation"></activity>
+        <activity android:name=".MenuActivity"></activity>
+        <activity android:name=".design.ActivityConstraintLayout" />
+        <activity android:name=".design.ToolBar" />
+        <activity android:name=".animation.ActivityAnimationBottomTop" />
+        <activity android:name=".animation.ActivityAnimationTopBottom" />
+        <activity android:name=".animation.ActivityAnimationLeftRight" />
+        <activity android:name=".animation.ActivityAnimationRightLeft" />
+        <activity android:name=".animation.FrameAnimation" />
+        <activity android:name=".animation.FirstAnimation" />
         <activity android:name=".MainActivity">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
     </application>

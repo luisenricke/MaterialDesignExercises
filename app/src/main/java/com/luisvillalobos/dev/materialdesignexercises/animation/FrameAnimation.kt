@@ -1,8 +1,9 @@
-package com.luisvillalobos.dev.materialdesignexercises
+package com.luisvillalobos.dev.materialdesignexercises.animation
 
 import android.graphics.drawable.AnimationDrawable
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.luisvillalobos.dev.materialdesignexercises.R
 import kotlinx.android.synthetic.main.activity_frame_animation.*
 
 class FrameAnimation : AppCompatActivity() {

@@ -1,7 +1,8 @@
-package com.luisvillalobos.dev.materialdesignexercises
+package com.luisvillalobos.dev.materialdesignexercises.animation
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.luisvillalobos.dev.materialdesignexercises.R
 
 class ActivityAnimationBottomTop : AppCompatActivity() {
 
@@ -12,6 +13,9 @@ class ActivityAnimationBottomTop : AppCompatActivity() {
 
     override fun onBackPressed() {
         super.onBackPressed()
-        overridePendingTransition(R.anim.top_in,R.anim.bottom_out)
+        overridePendingTransition(
+            R.anim.top_in,
+            R.anim.bottom_out
+        )
     }
 }

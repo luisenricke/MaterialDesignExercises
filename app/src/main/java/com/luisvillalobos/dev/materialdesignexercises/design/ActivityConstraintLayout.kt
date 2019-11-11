@@ -1,7 +1,8 @@
-package com.luisvillalobos.dev.materialdesignexercises
+package com.luisvillalobos.dev.materialdesignexercises.design
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.luisvillalobos.dev.materialdesignexercises.R
 
 class ActivityConstraintLayout : AppCompatActivity() {
 

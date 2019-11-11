@@ -4,6 +4,8 @@ import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.GridLayoutManager
+import com.luisvillalobos.dev.materialdesignexercises.animation.*
+import com.luisvillalobos.dev.materialdesignexercises.design.ToolBar
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -34,7 +36,8 @@ class MainActivity : AppCompatActivity() {
                 "Animation top to down", ActivityAnimationBottomTop::class.java,
                 R.anim.bottom_in, R.anim.top_out
             ),
-            Action("Toolbar", ToolBar::class.java)
+            Action("Toolbar", ToolBar::class.java),
+            Action("Menu", MenuActivity::class.java)
         )
 
         recyclerView.layoutManager = GridLayoutManager(this, 1)

@@ -1,9 +1,10 @@
-package com.luisvillalobos.dev.materialdesignexercises
+package com.luisvillalobos.dev.materialdesignexercises.animation
 
 import android.os.Bundle
 import android.view.animation.Animation
 import android.view.animation.AnimationUtils
 import androidx.appcompat.app.AppCompatActivity
+import com.luisvillalobos.dev.materialdesignexercises.R
 import kotlinx.android.synthetic.main.activity_first_animation.*
 
 class FirstAnimation : AppCompatActivity() {
@@ -57,7 +58,9 @@ class FirstAnimation : AppCompatActivity() {
             //var animation = AnimationUtils.loadAnimation(this,R.anim.combination)
 
             //Make two animation the view
-            var animation = AnimationUtils.loadAnimation(this,R.anim.bounce)
+            var animation = AnimationUtils.loadAnimation(this,
+                R.anim.bounce
+            )
 
             animation.setAnimationListener(object : Animation.AnimationListener {
                 override fun onAnimationRepeat(animation: Animation?) {
