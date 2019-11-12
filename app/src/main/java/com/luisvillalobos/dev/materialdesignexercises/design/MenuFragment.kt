@@ -1,13 +1,13 @@
-package com.luisvillalobos.dev.materialdesignexercises
+package com.luisvillalobos.dev.materialdesignexercises.design
 
 import android.content.Context
-import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.luisvillalobos.dev.materialdesignexercises.R
 import com.luisvillalobos.dev.materialdesignexercises.utils.RoundedBottomSheetDialogFragment
 
 private const val PARAM_LIST = "param_list"

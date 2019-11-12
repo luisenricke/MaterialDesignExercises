@@ -5,6 +5,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.GridLayoutManager
 import com.luisvillalobos.dev.materialdesignexercises.animation.*
+import com.luisvillalobos.dev.materialdesignexercises.design.MenuActivity
 import com.luisvillalobos.dev.materialdesignexercises.design.ToolBar
 import kotlinx.android.synthetic.main.activity_main.*
 
