@@ -19,11 +19,11 @@ ext {
     coreKtxVersion = '1.1.0'
     annotationVersion = '1.1.0'
     legacySupportv4Version = '1.0.0'
-    recycleviewVersion = '1.0.0'
+    recycleviewVersion = '1.1.0'
     cardviewVersion = '1.0.0'
     constraintLayoutVersion = '1.1.3'
     lifecycleVersion = '2.1.0'
-    materialVersion = '1.1.0-alpha10'
+    materialVersion = '1.2.0-alpha02'
 
     roomVersion = '2.2.0-rc01'
 
